@@ -46,6 +46,7 @@
       <meta:editing-cycles>0</meta:editing-cycles>
       <meta:editing-duration>P0D</meta:editing-duration>
       <dc:title>Homepages</dc:title>
+      
       <meta:document-statistic meta:table-count="1" meta:cell-count="33" meta:object-count="0"/>
    </office:meta>
    <office:settings>
@@ -485,7 +486,7 @@
             </style:region-left>
             <style:region-right>
                <text:p>
-                  <text:date style:data-style-name="N2" text:date-value="2012-09-29">2012／09／29</text:date>, <text:time>22:37:30</text:time> 
+                  <text:date style:data-style-name="N2" text:date-value="2012-09-29">2012／09／29</text:date>, <text:time>23:45:57</text:time> 
                </text:p>
             </style:region-right>
          </style:header>
@@ -582,7 +583,7 @@
                   <text:p/>
                   <text:p>
                      <text:s text:c="21"/>
-                     <text:a xlink:href="http://weibo.com/1898379115">http://weibo.com/1898379115</text:a> 
+                     <text:a xlink:href="http://weibo.com/flyskywhy">http://weibo.com/flyskywhy</text:a> 
                   </text:p>
                </table:table-cell>
                <table:table-cell table:number-columns-repeated="1021"/>
