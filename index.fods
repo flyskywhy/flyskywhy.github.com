@@ -30,6 +30,8 @@
                  xmlns:grddl="http://www.w3.org/2003/g/data-view#"
                  xmlns:tableooo="http://openoffice.org/2009/table"
                  xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0"
+                 xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0"
+                 xmlns:css3t="http://www.w3.org/TR/css3-text/"
                  office:version="1.2"
                  grddl:transformation="http://docs.oasis-open.org/office/1.2/xslt/odf2rdf.xsl"
                  office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
@@ -38,7 +40,7 @@
       <dc:date>1969-12-31T16:00:00</dc:date>
       <meta:print-date>1969-12-31T16:00:00</meta:print-date>
       
-      <meta:generator>OpenOffice.org/3.3$Win32 OpenOffice.org_project/330m14$Build-9542</meta:generator>
+      <meta:generator>LibreOffice/3.3$Linux LibreOffice_project/330m19$Build-202</meta:generator>
       
       
       
@@ -48,6 +50,7 @@
       <dc:title>Homepages</dc:title>
       
       
+      
       <meta:document-statistic meta:table-count="1" meta:cell-count="33" meta:object-count="0"/>
    </office:meta>
    <office:settings>
@@ -55,14 +58,14 @@
          <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
          <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
          <config:config-item config:name="VisibleAreaWidth" config:type="int">20825</config:config-item>
-         <config:config-item config:name="VisibleAreaHeight" config:type="int">13260</config:config-item>
+         <config:config-item config:name="VisibleAreaHeight" config:type="int">12698</config:config-item>
          <config:config-item-map-indexed config:name="Views">
             <config:config-item-map-entry>
                <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
                <config:config-item-map-named config:name="Tables">
                   <config:config-item-map-entry config:name="Sheet1">
-                     <config:config-item config:name="CursorPositionX" config:type="int">2</config:config-item>
-                     <config:config-item config:name="CursorPositionY" config:type="int">12</config:config-item>
+                     <config:config-item config:name="CursorPositionX" config:type="int">1</config:config-item>
+                     <config:config-item config:name="CursorPositionY" config:type="int">7</config:config-item>
                      <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
                      <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
                      <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -75,6 +78,7 @@
                      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
                      <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
                      <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+                     <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
                   </config:config-item-map-entry>
                </config:config-item-map-named>
                <config:config-item config:name="ActiveTable" config:type="string">Sheet1</config:config-item>
@@ -140,14 +144,13 @@
    </office:scripts>
    <office:font-face-decls>
       <style:font-face style:name="Arial" svg:font-family="Arial"/>
-      <style:font-face style:name="Arial2" svg:font-family="Arial" style:font-family-generic="swiss"
+      <style:font-face style:name="DejaVu Sans Condensed" svg:font-family="'DejaVu Sans Condensed'"
+                       style:font-family-generic="swiss"
                        style:font-pitch="variable"/>
       <style:font-face style:name="Arial1" svg:font-family="Arial" style:font-family-generic="system"
                        style:font-pitch="variable"/>
-      <style:font-face style:name="Arial Unicode MS" svg:font-family="'Arial Unicode MS'"
+      <style:font-face style:name="DejaVu Sans" svg:font-family="'DejaVu Sans'"
                        style:font-family-generic="system"
-                       style:font-pitch="variable"/>
-      <style:font-face style:name="Tahoma" svg:font-family="Tahoma" style:font-family-generic="system"
                        style:font-pitch="variable"/>
    </office:font-face-decls>
    <office:styles>
@@ -361,19 +364,15 @@
          <style:table-column-properties fo:break-before="auto" style:column-width="12.541cm"/>
       </style:style>
       <style:style style:name="ro1" style:family="table-row">
-         <style:table-row-properties style:row-height="0.631cm" fo:break-before="auto"
+         <style:table-row-properties style:row-height="0.621cm" fo:break-before="auto"
                                      style:use-optimal-row-height="true"/>
       </style:style>
       <style:style style:name="ro2" style:family="table-row">
-         <style:table-row-properties style:row-height="1.21cm" fo:break-before="auto"
+         <style:table-row-properties style:row-height="1.157cm" fo:break-before="auto"
                                      style:use-optimal-row-height="true"/>
       </style:style>
       <style:style style:name="ro3" style:family="table-row">
-         <style:table-row-properties style:row-height="1.789cm" fo:break-before="auto"
-                                     style:use-optimal-row-height="true"/>
-      </style:style>
-      <style:style style:name="ro4" style:family="table-row">
-         <style:table-row-properties style:row-height="0.623cm" fo:break-before="auto"
+         <style:table-row-properties style:row-height="1.711cm" fo:break-before="auto"
                                      style:use-optimal-row-height="true"/>
       </style:style>
       <style:style style:name="ta1" style:family="table" style:master-page-name="mp0">
@@ -487,7 +486,7 @@
             </style:region-left>
             <style:region-right>
                <text:p>
-                  <text:date style:data-style-name="N2" text:date-value="2012-09-30">2012／09／30</text:date>, <text:time>09:48:26</text:time> 
+                  <text:date style:data-style-name="N2" text:date-value="2012-10-09">2012／10／09</text:date>, <text:time>10:22:01</text:time> 
                </text:p>
             </style:region-right>
          </style:header>
@@ -685,10 +684,10 @@
                </table:table-cell>
                <table:table-cell table:number-columns-repeated="1021"/>
             </table:table-row>
-            <table:table-row table:style-name="ro4" table:number-rows-repeated="1048564">
+            <table:table-row table:style-name="ro1" table:number-rows-repeated="1048564">
                <table:table-cell table:number-columns-repeated="1024"/>
             </table:table-row>
-            <table:table-row table:style-name="ro4">
+            <table:table-row table:style-name="ro1">
                <table:table-cell table:number-columns-repeated="1024"/>
             </table:table-row>
          </table:table>
